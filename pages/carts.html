@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=favorite" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="my-md-5">
+        <div class="container">
+            <div class="row carts">
+                <div class="col-md-8">
+                    <h1 class="bg-info h4 mb-0 py-4 text-center">
+                        您的購物車
+                    </h1>
+                    <div class="cart-row d-flex flex-column flex-md-row py-3">
+                        <div class="d-flex align-items-center flex-grow-1 me-md-3">
+                            <div class="my-4 me-4 flex-grow-1 flex-md-0">
+                                <div class="cart-image" style="background-image: url(https://images.unsplash.com/photo-1504855328839-2f4baf9e0fd7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=db0c8e5539456faeca0e49c79e2ccb16&auto=format&fit=crop&w=800&q=60);"></div>
+                            </div>
+                            <div class="d-flex align-items-md-center flex-column flex-md-row flex-md-grow-1">
+                                <div class="flex-fill me-md-4">
+                                    <span class="h5">抹茶馬卡龍</span><br>
+                                    <span>NT$ 450</span>
+                                </div>
+                                <div class="cart-control ms-md-auto mt-3 mt-md-0">
+                                    <div class="input-group carts-input-group">
+                                        <div class="d-flex">
+                                            <button type="button" class="btn btn-brand-light text-primary-500 text-base-size">
+                                                <span class="material-icons">
+                                                    remove
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control" value="2">
+                                        <div class="d-flex">
+                                            <button type="button" class="btn btn-brand-light text-primary-500 text-base-size">
+                                                <span class="material-icons">
+                                                    add
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price ms-md-auto align-items-center py-3 justify-content-end d-flex flex-md-row-reverse">
+                            <a href="#" class="btn d-none d-md-block"><span class="material-icons">delete_outline</span></a>
+                            <span class="h5 mb-0 me-md-3">NT$ 900</span>
+                        </div>
+                    </div>
+
+                    <div class="cart-row d-flex flex-column flex-md-row py-3">
+                        <div class="d-flex align-items-center flex-grow-1 me-md-3">
+                            <div class="my-4 me-4 flex-grow-1 flex-md-0">
+                                <div class="cart-image" style="background-image: url(https://images.unsplash.com/photo-1525203135335-74d272fc8d9c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61b27d2cefd0dd094b5439f897b43bb7&auto=format&fit=crop&w=700&q=60);"></div>
+                            </div>
+                            <div class="d-flex align-items-md-center flex-column flex-md-row flex-md-grow-1">
+                                <div class="flex-fill me-md-4">
+                                    <span class="h5">抹茶馬卡龍</span><br>
+                                    <span>NT$ 450</span>
+                                </div>
+                                <div class="cart-control ms-md-auto mt-3 mt-md-0">
+                                    <div class="input-group carts-input-group">
+                                        <div class="d-flex">
+                                            <button type="button" class="btn btn-brand-light text-primary-500 text-base-size">
+                                                <span class="material-icons">
+                                                    remove
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control" value="2">
+                                        <div class="d-flex">
+                                            <button type="button" class="btn btn-brand-light text-primary-500 text-base-size">
+                                                <span class="material-icons">
+                                                    add
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price ms-md-auto align-items-center py-3 justify-content-end d-flex flex-md-row-reverse">
+                            <a href="#" class="btn d-none d-md-block"><span class="material-icons">delete_outline</span></a>
+                            <span class="h5 mb-0 me-md-3">NT$ 900</span>
+                        </div>
+                    </div>
+
+                    <div class="cart-row d-flex flex-column flex-md-row py-3">
+                        <div class="d-flex align-items-center flex-grow-1 me-md-3">
+                            <div class="my-4 me-4 flex-grow-1 flex-md-0">
+                                <div class="cart-image" style="background-image: url(https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d2452cace2ee90c9781c7a39c9a30cf&auto=format&fit=crop&w=800&q=60);"></div>
+                            </div>
+                            <div class="d-flex align-items-md-center flex-column flex-md-row flex-md-grow-1">
+                                <div class="flex-fill me-md-4">
+                                    <span class="h5">抹茶馬卡龍</span><br>
+                                    <span>NT$ 450</span>
+                                </div>
+                                <div class="cart-control ms-md-auto mt-3 mt-md-0">
+                                    <div class="input-group carts-input-group">
+                                        <div class="d-flex">
+                                            <button type="button" class="btn btn-brand-light text-primary-500 text-base-size">
+                                                <span class="material-icons">
+                                                    remove
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control" value="2">
+                                        <div class="d-flex">
+                                            <button type="button" class="btn btn-brand-light text-primary-500 text-base-size">
+                                                <span class="material-icons">
+                                                    add
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price ms-md-auto align-items-center py-3 justify-content-end d-flex flex-md-row-reverse">
+                            <a href="#" class="btn d-none d-md-block"><span class="material-icons">delete_outline</span></a>
+                            <span class="h5 mb-0 me-md-3">NT$ 900</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-md-3 py-3 pt-0 cart-msg-box">
+                        <h2 class="text-center cart-msg-title h4 py-3">訂單摘要</h2>
+                        <hr class="border-white mt-0">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>小計</span>
+                            <span>NT$ 2,700</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>運費</span>
+                            <span>NT$ 300</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span class="h5">總計</span>
+                            <span class="h5">NT$ 3000</span>
+                        </div>
+                    </div>
+                    <div class="negative-row-margin mx-md-0">
+                        <a href="checkout.html" class="btn btn-secondary d-block w-100 btn-lg py-3 text-primary">結帳</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

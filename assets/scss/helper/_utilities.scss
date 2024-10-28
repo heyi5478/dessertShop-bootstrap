@@ -1,0 +1,109 @@
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+.text-hide {
+  font: 0 / 0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+  // background
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+// four sides
+.four-sides {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.zindex--1 {
+  z-index: -1;
+}
+
+// opacity color
+.bg-accent-80 {
+  background-color: rgba($info, .8);
+}
+.bg-primary-80 {
+  background-color: rgba($primary, .8);
+}
+
+// write-mode
+.writing-vertical {
+  writing-mode: vertical-rl;
+}
+.writing-md-vertical {
+  @include media-breakpoint-up(md) {
+    writing-mode: vertical-rl;
+  }
+}
+
+// bg, text color, border color
+.bg-primary-200 {
+  background-color: $primary-200;
+}
+.text-primary-500 {
+  color: $primary-500 !important;
+}
+.text-primary-200 {
+  color: $primary-200 !important;
+}
+.border-primary-200 {
+  border-color: $primary-200;
+}
+
+// btn
+.btn-primary-lighter {
+  @include button-variant($primary-200, $primary-200);
+}
+
+.btn-brand-light {
+  @include button-variant($white, $primary-200);
+}
+
+// nav
+.navbar-toggler {
+  border: none;
+}
+
+.table {
+  th, td {
+    vertical-align: middle;
+  }
+}
+
+.form-control.form-control-lg {
+  -webkit-appearance: none;
+}
+
+.nav.nav-dark {
+  &.nav-pills > .nav-link {
+    border: $primary-200 1px solid;
+  }
+  .nav-link {
+    color: $primary-200;
+  }
+  .nav-link.active {
+    background-color: $primary-200;
+    color: $primary;
+  }
+}
+
+// spacing
+.negative-row-margin {
+  margin-left: -21px;  
+  margin-right: -21px;
+}
+
+.input-group-append {
+  margin-left: -1px;
+}
