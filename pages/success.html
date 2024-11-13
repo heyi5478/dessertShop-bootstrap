@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=favorite" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="mb-md-6">
+        <div class="container-md">
+            <header class="header">
+                <div class="header-main-image bg-cover row justify-content-center align-items-center" style="background-image: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c5a2cf31c693f5c15fb08135bf1adf2&auto=format&fit=crop&w=800&q=60);">
+                    <div class="col-md-4">
+                        <div class="process-steps process-steps-dark mb-5 mx-6">
+                            <div class="step-circle completed material-icons">    
+                                done
+                            </div>
+                            <div class="step-circle completed material-icons">
+                                done
+                            </div>
+                            <div class="step-circle completed material-icons">
+                                done
+                            </div>
+                        </div>
+
+                        <h2 class="text-hide text-center mb-5">
+                            付款成功
+                            <img src="../assets/images/lg-付款成功.svg" width="190" alt="">
+                        </h2>
+                        <a href="products.html" class="btn btn-secondary d-block w-100 btn-lg py-3 text-primary d-none d-md-block">
+                            繼續逛逛
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <a href="products.html" class="btn btn-secondary d-block w-100 btn-lg py-3 text-primary d-md-none">
+            繼續逛逛
+        </a>
+    </section>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
